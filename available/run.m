@@ -6,10 +6,6 @@ tic
 dataname = 'PlantPseAAC.mat';%Scene
 load (dataname);
 
-% 保存命令行内容
-% com_name = [dataname '_command'  '.txt'];
-% diary(com_name);
-
 % Ibitialization parameters
 modelparameter =  Initialization;
 modelparameter.datasetname = dataname;
