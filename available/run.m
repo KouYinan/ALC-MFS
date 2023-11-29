@@ -3,7 +3,7 @@
 clear; % clc;
 % Load the file, including train_data\target (NxD and LxN) and test_data\target (MxD and LxM)
 tic
-dataname = 'CAL500.mat';%xxx.mat
+dataname = 'xxx.mat';
 load (dataname);
 
 % Ibitialization parameters
