@@ -92,15 +92,15 @@ function K_ = ParameterK(train_data, modelparameter)
         D(k,1) = k;
         D(k,2) = sse1;
     end
-    f2 = figure;
-    plot(D(2:end,1),D(2:end,2))
-    hold on;
-    plot(D(2:end,1),D(2:end,2),'or');
-    hold off;
-    title('不同K值聚类偏差图') 
-    xlabel('分类数(K值)') 
-    ylabel('簇内误差平方和or余弦距离') 
-    grid on;
+    %f2 = figure;
+    %plot(D(2:end,1),D(2:end,2))
+    %hold on;
+    %plot(D(2:end,1),D(2:end,2),'or');
+    %hold off;
+    %title('不同K值聚类偏差图') 
+    %xlabel('分类数(K值)') 
+    %ylabel('簇内误差平方和or余弦距离') 
+    %grid on;
     
     margin_values = [];
     for i = 2:size(D,1)-1
